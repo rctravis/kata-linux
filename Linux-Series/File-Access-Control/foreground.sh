@@ -1,1 +1,1 @@
-sleep 3; echo "Hello"; ./setup.sh
+sleep 3; echo "Hello"; ./.setup.sh
