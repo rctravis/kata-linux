@@ -12,10 +12,15 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "setup.sh"
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": ".setup.sh", "target: "/root", "chmod: +x"}
+      ]
     }
   },
   "environment": {
