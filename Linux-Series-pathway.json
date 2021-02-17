@@ -1,0 +1,12 @@
+{
+    "title": "Linux Series",
+    "description": "Overview of Linux",
+    "icon": "docker",
+    "courses": [
+      {
+        "title": "File Access Control",
+        "description": "How file access works in Linux",
+        "course_id": "File-Access-Control"
+      }
+    ]
+  }
