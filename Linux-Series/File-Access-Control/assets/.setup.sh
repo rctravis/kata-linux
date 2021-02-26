@@ -16,5 +16,6 @@ chown brubble file4.sh
 chmod 000 file4.sh
 
 apt install bash-completion
+clear
 
 echo "All done, thanks for waiting"
