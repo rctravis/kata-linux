@@ -1,5 +1,11 @@
-To add the ability to read and execute we can use this chmod command `chmod +xr file1.sh`{{execute}} and then validate it one last time with `ls -l |grep file1.sh`{{execute}}
+To add the ability to read and execute we can use this chmod command: 
+```
+chmod +xr file1.sh
+```{{execute}} 
 
+Validate it one last time with `ls -l |grep file1.sh`{{execute}}
+
+---
 
 Lets look at file4.sh now:
 

@@ -1,4 +1,4 @@
-If you recall Index Nodes (`inodes`) store the file access information.
+If you recall, Index Nodes (`inodes`) store the file access information.
 
 Use the stat command to view the inode data.
 
@@ -12,5 +12,5 @@ Run the stat command again:
 
 `stat file2.sh`{{execute}} 
 
-The times on modify and change have been updated.
+The timestamps associated with modify and change have been updated.
 
