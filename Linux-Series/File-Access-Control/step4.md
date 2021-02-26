@@ -27,6 +27,9 @@ The `-x` removes the ability to execute, if we wanted to add a permission to exe
 
 Validate the permissions have changed with `ls -l |grep file1.sh`{{execute}}
 
+The execpted output should be:
+`-rw-r----- 1 brubble root  27 Feb 26 17:37 file1.sh`
+
 Try to execute it now:
 `./file1.sh`{{execute}}
 
