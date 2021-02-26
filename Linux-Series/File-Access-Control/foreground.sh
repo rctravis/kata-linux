@@ -1,1 +1,1 @@
-sleep 5; ./.setup.sh
+sleep 6; ./.setup.sh
