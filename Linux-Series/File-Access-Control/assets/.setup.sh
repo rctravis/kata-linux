@@ -6,10 +6,12 @@ useradd brubble
 useradd fflintstone
 useradd gjetson
 
-chmod 755 file1.sh
+chmod 777 /root
+chmod 750 file1.sh
 chmod 000 file2.sh
 chown brubble file3.sh
-chmod 111 file4.sh
+chown brubble file1.sh
+chmod 000 file4.sh
 
 
 echo "All done, thanks for waiting"
