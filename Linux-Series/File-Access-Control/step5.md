@@ -25,12 +25,14 @@ Once again we can validate with: `ls -l |grep file4.sh`{{execute}}
 
 Running `chmod 660 file4.sh`{{execute}} will apply read/write abilities to the owner and the group associated with the file.
 
+Confirm the change again: `ls -l |grep file4.sh`{{execute}}
+
 Lets give the owner of the file full permissions and everyone else on the system the ability to read and execute the file.
 
 `chmod 755 file4.sh`{{execute}}
 
 Validate the change with `ls -l |grep file4.sh`{{execute}}
 
-Lastly let's execute the file to confirm no issues.
+Lastly let's confirm we can execute the file with no issues.
 
 `./file4.sh`{{execute}}

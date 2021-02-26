@@ -9,8 +9,10 @@ useradd gjetson
 chmod 777 /root
 chmod 750 file1.sh
 chmod 000 file2.sh
-chown brubble file3.sh
 chown brubble file1.sh
+chown brubble file3.sh
+chown brubble file4.sh
+
 chmod 000 file4.sh
 
 

@@ -5,15 +5,15 @@ Lets look at the permissions for file1.sh
 `ls -l |grep file1.sh`{{execute}}
 
 We should see an output that shows the permissions as:
-`-rwxr-xr-x`
+`-rwxr-x---`
 
 This can be broken up into 4 sections
 `- | rwx | r-x | ---`
 
 - The first section tells us if it is a file or directory
-- The next section tells us the permissions for the owner of the file (read/write/execute)
+- The second section tells us the permissions for the owner of the file (read/write/execute)
 - The third section tells us the permissions for the group which owns the file (read/execute)
-- The final section tells us the permissions anyone on the system has to the file (no permissions at all).
+- The fourth section tells us the permissions anyone on the system has to the file (no permissions at all).
 
 Execute file 1 using the command below:
 

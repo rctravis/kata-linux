@@ -1,7 +1,6 @@
 {
     "title": "Linux Series",
     "description": "Overview of Linux",
-    "icon": "docker",
     "courses": [
       {
         "title": "File Access Control",
