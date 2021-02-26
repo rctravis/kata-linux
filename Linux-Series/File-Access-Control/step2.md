@@ -3,7 +3,9 @@
 First we need to make a directory:
 
 
-`mkdir bedrock`{{execute}}
+```
+mkdir bedrock
+```{{execute}}
 
 
 Now lets check the owner of the file with:
